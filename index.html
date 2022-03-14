@@ -1,102 +1,151 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/csss/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+        <link rel="stylesheet" href="index.js">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Istok+Web&family=Sacramento&display=swap');
-        </style>
+        @import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Frijole&family=Nanum+Brush+Script&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+    </style>
     <title>Portfólio</title>
 
 </head>
-<body>
-    <header>
-        <div class="img-bg">
-        <img class="img__header" src="./imagens/bg-3_dev.jpg" alt="">
-        </div>
-  
-          <ul class="ul_header"
-          >
-              <li class="li-header">
-                 <a class="a_li" href="">Sobre Mim</a> </li>
-              <li class="li-header"> <a class="a_li" href=""> Portfólio</a></li>
-              <li class="li-header"><a class="a_li" href=""> Links úteis </a></li>
-              <li class="li-header"><a class="a_li" href=""> Contato </a></li>
-          </ul>
 
-      </div>
-  </header>
-  <section>
-      <div class="sbm-div">
-          <h1>Sobre mim</h1>
-      <h5>Nome</h5>
-      <p>Jessica Amaral</p>
-      <h5>Cidade</h5>
-      <p>São Paulo - SP</p>
-      <h5>Tipo sanguíneo</h5>
-      <p>O-</p>
-      <ul>Competências
-          <li>HTML</li>
-          <li>Css</li>
-          <li>Java Script</li>
-          <li>Bootstrap</li>
-          <li>Bulma</li>
-        
-      </ul>
-      <p></p>
-      <h5></h5>
-      <p></p>
-      </div>
-      <a href=""></a>
-  </section>
-  <section>
-      <div>
-          <h2>Portfólio</h2>
-          <ol>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-              <li></li>
-          </ol> 
-          <ul>Educação
-              <li>Análise e desenvolvimento de sistemas - Uninove</li>
-              <li>Java Xpert - Fiap</li>
-              <li>JavaScript - Udemy</Script></li>
-          </ul>  
-          <ul>Projetos
-              <li><a href=""></a></li>
-              <li><a href=""></a></li>
-          </ul>           
-          
-      </div>
-      <div>
-          <h2>Links</h2>
-          <a href=""></a>
-          <a href=""></a>
-      </div>
-      
-  </section>
-  <section>
-      <div>
-          <h2>Contato</h2>
-          <form action="">
-              <label for="">E-mail:</label>
-              <a href="">nike_jessica@hotmail.com</a>
-              
-              <h4>Telefone</h4>
-              <p>11969645778</p>
-              <a href="">linkedin</a>
-          </form>
-      </div>
-  </section>
-  <footer>
-      <img src="" alt="">
-      <p>Desenvolvido por</p>
-      <h3>Jéssica Amaral</h3>
-  </footer>
+<body>
+
+    <header>
+
+        <h5 class="h5-name"> JÉSSICA AMARAL</h5>
     
+       <input type="checkbox" id="check">
+       <label for="check" id="icone"><img src="./imagens/icon.png" alt=""></label>
+
+      <div class="menu" id="menu">
+        <ul class="ul_header">
+            <li class="li-header"><a class="a_li" href="">SOBRE MIM</a> </li>
+            <li class="li-header"> <a class="a_li" href="#port-1"> PORTFÓLIO</a></li>
+            <li class="li-header"><a class="a_li" href="#links"> LINKS ÚTEIS </a></li>
+            <li class="li-header"><a class="a_li" href="#cnt"> CONTATO </a></li>
+        </ul>
+    </div>
+
+        </div>
+    </header>
+    <section class="sessao1">
+        <div class="sbm">
+
+            <div class="sbm-div">
+                <img id="img-me" src="./imagens/O2Cam_20210410125706.jpg" alt="">
+                <div class="sbm-text">
+                    <h4 class="text" id="sbm-text">Breve Relato</h4>
+                    <p class="text"> Olá, sou a Jéssica, sou apaixonada por tudo que é novo, aprendizado e conhecimento
+                        é o que me move.</p>
+
+                </div>
+
+
+                <div class="info-div">
+                    <h3><i class="fas fa-user-tag"></i>Informações pessoais</h3>
+                    <p>Nome: Jessica Amaral</p>
+                    <p>Cidade: São Paulo - SP</p>
+                    <p>Tipo sanguíneo: O-</p>
+                </div>
+
+
+                <div class="compet-div">
+                    <h3>
+                        <i class="far fa-clipboard"></i>
+                        Principais Competências</h3>
+                    <ul class="ul_compet" id="compet">
+                        <li>HTML</li>
+                        <li>Css</li>
+                        <li>Java Script</li>
+                        <li>Bootstrap</li>
+                        <li>Bulma</li>
+
+                    </ul>
+                </div>
+                <div class="skills-div">
+                    <h3>Soft skills</h3>
+                    <ul>
+                        <li>Comunicação</li>
+                        <li>Trabalho em grupo</li>
+                        <li>Atenção para ouvir</li>
+                        <li>Criatividade</li>
+                        <li>Colaboração</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="port-name">
+                <h2 id="port-1">Portfólio</h2>
+            </div>
+            <div class="port-div"></div>
+            <div class="img_portfólio">
+                <img class="img-Projeto1" src="./imagens/Sem título.jpg" alt="Landin Page">
+
+                <a class="a-landing" href="https://github.com/jessica12-lab/LandingPage" target="blank">Landing Page</a>
+            </div>
+            <div class="container-2">
+
+            <div class="div-container">
+
+                <h4 class="h4_ed"><i class="fas fa-book">Educação</i></h4>
+
+                <ul class="ul_ed">
+                    <li class="li-ed">Análise e desenvolvimento de sistemas - Uninove</li>
+                    <li class="li-ed">Java Xpert - Fiap</li>
+                    <li class="li-ed">JavaScript Full Stack- Onde Bit code</Script>
+                    </li>
+                </ul>
+            </div>
+            <div class="div-container">
+                <h2 id="links">Links</h2>
+                <a class="link_ic" href="https://www.linkedin.com/in/jessica-camila-939554b7/" target="blank"><i
+                        class="fab fa-linkedin">Linkedin</i></a>
+                <a class="link_ic" href="https://github.com/jessica12-lab" target="blank"><i
+                        class="fab fa-github">GitHub</i></a>
+
+            </div>
+        </div>
+        </div>
+
+
+    </section>
+    <section>
+        <div class="">
+          
+            <div class="contact">
+                <h2 class="cnt" id="cnt">Contato</h2>
+                <h4 class="cnt"> E-mail:</h4>
+                <p class="cnt">nike_jessica@hotmail.com </p>
+
+                <h4 class="cnt">Telefone:</h4>
+                <p class="cnt">11969645778</p>
+
+            </div>
+
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Copyright ©. Todos os direitos reservados.  <br> Desenvolvido por <span>Jéssica Amaral</span></p>
+
+    </footer>
+
 </body>
+
 </html>
