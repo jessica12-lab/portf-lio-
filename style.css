@@ -36,7 +36,7 @@ header {
 .li-header {
     margin-left: 3%;
     margin-right: 2%;
-    font-size: 15px;
+    font-size: 13px;
     border: solid 1px;
     border-radius: 8px;
     padding: 1%;
@@ -85,7 +85,7 @@ header {
 }
 
 #sbm-text {
-    font-size: 30px;
+    font-size: 28px;
 
 }
 
@@ -94,7 +94,7 @@ header {
 .skills-div {
     width: 20%;
     color: rgb(211, 211, 211);
-    font-size: 17px;
+    font-size: 15px;
     padding-bottom: 3%;
     margin-right: 2%;
     margin-top: 4%;
@@ -122,7 +122,7 @@ h4:hover {
 
 .sbm_h1 {
 
-    color: rgb(0, 0, 0);
+    color: rgb(65, 65, 65);
     font-size: 35px;
     letter-spacing: 2px;
     text-align: left;
@@ -146,17 +146,7 @@ h4:hover {
     margin-top: -2%;
     margin-bottom: 2%;
 }
-.a-landing{
-    margin-left: -25%;
-    color: brown;
-    font-size: 20px;
-    text-decoration: none;
-    border-radius: 10px;
-    
-}
-.a-landing:hover{
-    text-decoration: underline;
-}
+
 .container-2{
     width: 250px;
     display: inline-block;
@@ -168,8 +158,8 @@ h4:hover {
     margin-right: 5%;
 }
 .h4_ed {
-    color: rgb(44, 48, 51);
-    font-size: 20px;
+    color: rgb(50, 54, 56);
+    font-size: 15px;
     margin-left: 15%;
     margin-top: 5%;
     padding-bottom: 3%;
@@ -178,7 +168,7 @@ h4:hover {
 .li-ed {
     display: grid;
     color: rgb(44, 48, 51);
-    font-size: 17px;
+    font-size: 15px;
     margin-left: 15%;
     margin-top: 1%;
 }
@@ -202,21 +192,37 @@ h4:hover {
 .img-Projeto1 {
     border-radius: 5px;
     box-shadow: 10%;
-    margin-left: 3%;
+    margin-left: 1%;
     margin-top: 5%;
     box-shadow: 5px 5px 5px 8px rgb(196, 193, 193);
 
 }
+.a-landing{
+    margin-left:-51%;
+    margin-top: 30%;
+    color: rgb(236, 228, 228);
+    font-size: 14px;
+    text-decoration: none; 
+    width: 23%;
+    height: 10%;
+    background-color: rgb(255, 50, 50);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 1%;   
+    
+}
+.a-landing:hover{
+    text-decoration: underline;
+}
 .div_portfolio{
     display: flex;
-    margin-left: 10%;
+    margin-left: 8%;
     
 }
 
 .img_portfolio {
     display: inline-flex;
-    width: 40%;
-    margin-left: 3%;
+    width: 50%;
     
 }
 
@@ -315,8 +321,7 @@ h2 {
     }
     .a-landing{
         margin-left: -45%;
-        font-size: 13px; 
-
+        font-size: 13px;
     }
     .info-div, .compet-div, .skills-div{
         width: 100%;
@@ -339,8 +344,11 @@ h2 {
 	width: 50%;
 	position: absolute;
 	left: -580px;
-	transition: all .0.1s;
+	transition: all 0.1s;
     
+   }
+   .li-ed{
+       margin-top:5% ;
    }
   
    #check:checked ~ .menu, .a_li{
@@ -364,10 +372,10 @@ h2 {
    .img-Projeto1{
        width: 80%;
        padding-top: 3%;
-       margin-left: 4%;
+       margin-left: 1%;
    }
    .img_portfolio{
-       margin-left:-3%;
+       margin-left:3%;
    }
    .div_portfolio, .img_portfolio{
        display: block;
