@@ -202,23 +202,24 @@ h4:hover {
 .img-Projeto1 {
     border-radius: 5px;
     box-shadow: 10%;
-    margin-left: 10%;
+    margin-left: 3%;
     margin-top: 5%;
-    box-shadow: 10px 10px 15px 10px gray;
+    box-shadow: 5px 5px 5px 8px rgb(196, 193, 193);
 
 }
 .div_portfolio{
     display: flex;
-    margin-left: 7%;
+    margin-left: 10%;
     
 }
 
 .img_portfolio {
     display: inline-flex;
     width: 40%;
+    margin-left: 3%;
     
-
 }
+
 
 .li_port1 {
     display: block;
@@ -364,6 +365,9 @@ h2 {
        width: 80%;
        padding-top: 3%;
        margin-left: 4%;
+   }
+   .img_portfolio{
+       margin-left:-3%;
    }
    .div_portfolio, .img_portfolio{
        display: block;
