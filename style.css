@@ -7,7 +7,7 @@
 
 body {
    
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
 }
 
 header {
@@ -66,7 +66,6 @@ header {
 }
 
 #img-me {
-    /* border-radius: 50%; */
     width: 200px;
     height: 200px;
     margin-left: 5%;
@@ -156,13 +155,14 @@ h4:hover {
     width: 50%;
     margin-left: 3%;
     margin-right: 5%;
+    
 }
-.h4_ed {
-    color: rgb(50, 54, 56);
-    font-size: 15px;
-    margin-left: 15%;
+.h2-div {
+    color: rgb(51, 53, 54);
+    font-size: 17px;
+    margin-left: -60%;
     margin-top: 5%;
-    padding-bottom: 3%;
+    text-transform: none;
 }
 
 .li-ed {
@@ -171,6 +171,7 @@ h4:hover {
     font-size: 15px;
     margin-left: 15%;
     margin-top: 1%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
 }
 
 .fab {
@@ -191,10 +192,9 @@ h4:hover {
 
 .img-Projeto1 {
     border-radius: 5px;
-    box-shadow: 10%;
     margin-left: 1%;
     margin-top: 5%;
-    box-shadow: 5px 5px 5px 8px rgb(196, 193, 193);
+    border: solid 0.2px rgb(170, 169, 169);
 
 }
 .a-landing{
@@ -204,11 +204,11 @@ h4:hover {
     font-size: 14px;
     text-decoration: none; 
     width: 23%;
-    height: 10%;
+    height: 9%;
     background-color: rgb(255, 50, 50);
-    border-radius: 10px;
+    border-radius: 5px;
     text-align: center;
-    padding-top: 1%;   
+    padding: 1%;
     
 }
 .a-landing:hover{
@@ -240,7 +240,7 @@ h2 {
 
 #links {
     color: rgb(44, 48, 51);
-    font-size: 15px;
+    font-size: 17px;
     padding: 2%;
     margin-top: 5%;
     text-align: left;
@@ -254,15 +254,24 @@ h2 {
 }
 
 .cnt {
-    margin-left: 10.5%;
     margin-right: 50%;
+    color: rgb(44, 48, 51); ;
 
 }
+#cnt-2, #cnt-3{
+    font-size: 16px;
+
+}
+.cnt-1{
+    margin-left: 10.7%;
+margin-bottom: 3px;
+}
 #cnt{
-    margin-left: -25%;
+    padding-left: 1.5%;
     margin-top: 2%;
     margin-bottom: 1%;
-    font-size: 15px;
+    font-size: 17px;
+    margin-left: -26%;
 }
 
 .sbm {
@@ -281,7 +290,7 @@ h2 {
 
 
 
-
+/* aqui começa a formatação mobile */
 
 
 
@@ -294,18 +303,20 @@ h2 {
 
 
 @media (max-width:1000px){
-    .h5-name, .ul_header, .text, .sbm-text{
+    .h5-name, .ul_header, .text, .sbm-text, .div-container, .contact{
         width: 100%;
         margin-bottom: 3%;
     }
+
     .ul_header{
         margin-left: 1%;
         margin-top: 2%;
     }
     #img-me{
-        transform: translate(154%, -9%);
-        box-shadow: white;
+        transform: translate(125%, -4.5%);
+        border: solid 1px gray;
         border-radius: 5px;
+        padding: 2px;
        
         
     }
@@ -319,10 +330,7 @@ h2 {
     .link_ic{
        color: rgb(192, 154, 104);
     }
-    .a-landing{
-        margin-left: -45%;
-        font-size: 13px;
-    }
+   
     .info-div, .compet-div, .skills-div{
         width: 100%;
         display: inline-block;
@@ -343,7 +351,7 @@ h2 {
 	height: 30%;
 	width: 50%;
 	position: absolute;
-	left: -580px;
+	left: -565px;
 	transition: all 0.1s;
     
    }
@@ -365,31 +373,58 @@ h2 {
  
   .ul_header{
        display: block;
-       width: 90%;
+       width: 70%;
        position: absolute;
-       margin-left: 6%;
+       margin-left: 5%;
    }
    .img-Projeto1{
        width: 80%;
        padding-top: 3%;
        margin-left: 1%;
+       padding: 1%;
+       position: relative;
+       z-index: -1;
    }
    .img_portfolio{
        margin-left:3%;
-   }
+       margin-bottom: 5px;   
+
+}
+   .a-landing{
+    margin-left: -30%;
+    font-size: 20px;
+    font-weight:unset;
+    background-color:transparent;
+    color: rgb(28, 53, 56);
+
+}
+
    .div_portfolio, .img_portfolio{
        display: block;
-       width: 100%;
-       
+       width: 100%;    
     }
    
    .a_li:hover{
        color: rgb(250, 250, 250);
    }
-   
-   #cnt{
-       margin-left: -19.5%;
+   #ed{
+       margin-left: -55%;
 
+   }
+   #cnt{
+       margin-left: -27%;
+       margin-bottom: 10px;
+
+
+   }
+   .cnt{
+       margin-left: 17.9%;
+       width: 100%;
+
+   }
+   .cnt-1{
+       margin-left: 18%;
+       
    }
 }
     
